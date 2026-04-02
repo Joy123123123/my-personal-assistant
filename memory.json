@@ -20,7 +20,28 @@
       "command": "rm -rf /",
       "output": "🚫 BLOCKED: Dangerous command detected! This command is not allowed.",
       "status": "blocked"
+    },
+    {
+      "timestamp": "2026-04-02T14:19:28.725110",
+      "user_input": "pwd",
+      "command": "pwd",
+      "output": "/home/runner/work/my-personal-assistant/my-personal-assistant",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-04-02T14:19:28.727629",
+      "user_input": "ls",
+      "command": "ls",
+      "output": "README.md\n__pycache__\nagent.py\nmemory.json",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-04-02T14:19:28.729747",
+      "user_input": "cat memory.json",
+      "command": "cat memory.json",
+      "output": "{\n  \"conversations\": [\n    {\n      \"timestamp\": \"2026-04-02T14:13:12.119696\",\n      \"user_input\": \"pwd\",\n      \"command\": \"pwd\",\n      \"output\": \"/home/runner/work/my-personal-assistant/my-personal-assistant\",\n      \"status\": \"success\"\n    },\n    {\n      \"timestamp\": \"2026-04-02T14:13:12.122074\",\n      \"user_input\": \"ls\",\n      \"command\": \"ls\",\n      \"output\": \"README.md\\n__pycache__\\nagent.py\\nmemory.json\",\n      \"status\": \"success\"\n    },\n    {\n      \"timestamp\": \"2026-04-02T14:13:15.767144\",\n",
+      "status": "success"
     }
   ],
-  "last_updated": "2026-04-02T14:13:15.767153"
+  "last_updated": "2026-04-02T14:19:28.729753"
 }
